@@ -1,0 +1,29 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+**Initialization Requirement:** Before proceeding with *any* development task described below, you **MUST first read the following essential rule files** to load the necessary context:
+1.  `rules/component/00-core-principles.md`
+2.  `rules/component/01-component-structure.md`
+3.  `rules/component/02-component-feature-implementation.md`
+
+*Failure to read these files before starting is a violation of protocol.*
+
+## 1. Core Principles Adherence
+- Always follow the principles detailed in the **already-read** `rules/component/00-core-principles.md`.
+
+1. BEFORE implementing ANY Prismatic-specific structure (connection, action, trigger, etc.):
+   - First read ALL relevant sections in the reference files above
+   - Search for existing examples in the codebase using the same pattern
+   - Consult TypeScript definitions for the specific structure
+   - Review linter errors carefully as they indicate required structure
+
+2. When uncertain:
+   - Reference the three core rule files again for guidance and follow any pre-requisite readings.
+   - Prefer explicit code examples from the codebase over assumptions
+   - Always refer to https://prismatic.io/docs for documentation help with spectral SDK
+   - Never make assumptions, always ask for clarification if you're unable to determine the answer yourself based on the rules provided
+   - Stop and request clarification rather than proceeding with uncertainty
+   - ALWAYS assume you are operating in the context of a Prismatic environment
+   - Never hallucinate
