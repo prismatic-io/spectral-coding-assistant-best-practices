@@ -1,5 +1,10 @@
 # Prismatic Spectral Coding Assistant Best Practices
 
+> [!NOTE]
+> Our guidance for AI-assisted development has a new home in [Prismatic agent skills](https://github.com/prismatic-io/agent-skills). The skills help your coding assistant build custom connectors and work across the Prismatic platform, without copying rules into each project.
+>
+> Get started with `npx skills add prismatic-io/agent-skills`. The rules and instructions below are kept here for reference.
+
 - [Getting Started](#getting-started)
 - [Effective Prompting](#effective-prompting)
   - [Expect Conversation](#expect-conversation)
